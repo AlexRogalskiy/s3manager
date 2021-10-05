@@ -7,6 +7,7 @@ linters:
     - ifshort
     - lll
     - nlreturn
+    - varnamelen
     - wsl
 
 issues:
@@ -18,7 +19,5 @@ issues:
 linters-settings:
   govet:
     check-shadowing: true
-  maligned:
-    suggest-new: true
   misspell:
     locale: US
